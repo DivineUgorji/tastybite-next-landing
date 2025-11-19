@@ -4,6 +4,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.perspective-500 {
+  perspective: 500px;
+}
+
 @theme {
   --color-primary-50: #f4ece1;
   --color-primary-75: #fcfbf7;

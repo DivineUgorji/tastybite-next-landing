@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🥮🍴TastyBite Landing Page
 
-## Getting Started
+A high-converting, responsive landing page built for TastyBite, a local food brand, to support their digital ad campaign and drive online orders.
 
-First, run the development server:
+![](./src/assets/graphics/tastybite-preview.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📖 Project Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The TastyBite landing page was designed to capture the attention of ad traffic and quickly convert visitors into paying customers. It uses a clean layout, appetizing visuals, and persuasive copy to highlight the brand’s offerings and unique value.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🎯 Objectives
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Convert ad clicks into actual food orders.
 
-## Learn More
+- Showcase TastyBite’s popular meals with appealing visuals.
 
-To learn more about Next.js, take a look at the following resources:
+- Communicate the brand story and trustworthiness.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Offer clear calls to action (CTA) for quick customer engagement.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✨ Key Features
 
-## Deploy on Vercel
+- Hero Section – Eye-catching headline, tagline, and order button.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- About Section – Brief brand introduction.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Menu Highlights – Display of popular dishes with descriptions.
+
+- Why Choose Us – Core benefits: fresh ingredients, fast delivery, affordable pricing.
+
+- Testimonials – Customer feedback to build trust.
+
+- Promotional Offer – Limited-time campaign deal for first-time buyers.
+
+- Contact & CTA – Multiple touchpoints (form, phone, WhatsApp link).
+
+- Fully Responsive – Optimized across mobile, tablet, and desktop.
+
+## 🛠️ Tech Stack
+
+- Frontend: HTML, Tailwind CSS, JavaScript, React.
+
+- Deployment: [vercel]
+
+### 🚀 Live Demo
+
+[🔗 View the Landing Page]()
+
+## 📈 Future Enhancements
+
+- Integrate analytics for conversion tracking.
+
+- Add A/B testing for CTA placements and button variations.
+
+- Expand menu section with categories and filters.
+
+- Include newsletter sign-up for remarketing.
+
+### 👨‍💻 Author
+
+Designed & developed with ❤️ by [Divine Ugorji](https://x.com/Divine__Ugorji)

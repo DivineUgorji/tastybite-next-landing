@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { motion } from "motion/react";
 import Star from "../../icons/Star";
 
@@ -33,7 +32,7 @@ function Testimonial({ test }) {
       </p>
 
       <div className="mt-auto flex gap-x-4 items-center">
-        <Image
+        <img
           className="h-12 w-12 sm:w-14 sm:h-14 rounded-full object-cover"
           src={test.src}
           alt={test.title}

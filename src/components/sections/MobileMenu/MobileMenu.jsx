@@ -69,7 +69,10 @@ function MobileMenu() {
           >
             Order Now
           </a>
-          <a className="block text-center border-primary-75 transition-properties text-primary-100 hover:bg-primary-75 hover:text-primary-base-300 box-border cursor-pointer rounded-full border-2 px-4 py-2 font-medium text-lg/loose">
+          <a
+            href="#contact"
+            className="block text-center border-primary-75 transition-properties text-primary-100 hover:bg-primary-75 hover:text-primary-base-300 box-border cursor-pointer rounded-full border-2 px-4 py-2 font-medium text-lg/loose"
+          >
             Learn More
           </a>
         </div>

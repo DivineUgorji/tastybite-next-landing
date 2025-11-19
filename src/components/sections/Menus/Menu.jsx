@@ -11,13 +11,24 @@ function Menu({ tastyMenu }) {
       transition={{ opacity: { duration: 0.75, ease: "easeInOut" } }}
       id="Menu"
     >
-      <Image
+      {/* <Image
         className="h-48 w-full object-cover rounded-xl"
         src={tastyMenu.src}
         alt={tastyMenu.title || "Menu item"}
-        height={192}
-        width={192}
-      />
+        height="192"
+        width="192"
+      /> */}
+
+      <div style={{ position: "relative", width: "100%", height: "300px" }}>
+        <Image
+          className="rounded-xl"
+          src={tastyMenu.src}
+          alt={tastyMenu.title || "Menu item"}
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          style={{ objectFit: "cover" }}
+        />
+      </div>
       <div className="bg-primary-90 flex flex-col gap-y-4 flex-1 mt-4">
         <h4 className="font-semibold text-xl tracking-tight text-primary-base-500">
           {tastyMenu.title}

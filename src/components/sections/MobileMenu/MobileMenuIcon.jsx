@@ -1,3 +1,4 @@
+"use client";
 import { motion } from "motion/react";
 import Menu from "../../icons/Menu";
 import { useMobileMenuContext } from "../../../Contexts/MobileMenuContext";

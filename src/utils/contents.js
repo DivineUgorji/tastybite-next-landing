@@ -37,6 +37,7 @@ import headShotTwo from "@/assets/headshots/img-2.png";
 import headShotThree from "@/assets/headshots/img-16.png";
 import headShotFour from "@/assets/headshots/img-12.png";
 import headShotFive from "@/assets/headshots/img-13.png";
+import headShotSix from "@/assets/headshots/img-1.png";
 
 const navigationLinks = [
   {
@@ -465,7 +466,7 @@ const testimonials = [
     rating: 5,
     description:
       "This is hands down the best shawarma I’ve tried. It’s fresh and perfectly made. The flavor is rich and satisfying. Shawarma lovers shouldn’t miss it.",
-    src: "/assets/headshots/img-1.png",
+    src: "headshots/img-1.png",
     name: "Victor Dominion",
     title: "customer",
   },
@@ -475,7 +476,7 @@ const testimonials = [
     rating: 5,
     description:
       "One of the best shawarma spots in Owerri, no doubt. I’ve had it multiple times since school resumed, and it’s always good. Delivery is quick, and the staff are super friendly. Truly, great taste in every bite.",
-    src: "/assets/headshots/img-2.png",
+    src: "/headshots/img-2.png",
     name: "Mzee Abia",
     title: "customer",
   },
@@ -484,7 +485,7 @@ const testimonials = [
     rating: 5,
     description:
       "I absolutely loved the shawarma—it was worth the trip from Onitsha. It lived up to the hype completely. The staff were kind and welcoming. The whole experience was top-notch.",
-    src: "/assets/headshots/img-17.png",
+    src: "/headshots/img-17.png",
     name: "Emmanuel Ekeh",
     title: "customer",
   },
@@ -494,7 +495,7 @@ const testimonials = [
     rating: 5,
     description:
       "This shawarma was a pleasant surprise after a bad first try elsewhere. The staff are friendly and welcoming. I brought my friends, and now we’re regulars. They’ve truly earned it.",
-    src: "/assets/headshots/img-4.png",
+    src: "/headshots/img-4.png",
     name: "Michael Onyema",
     title: "customer",
   },
@@ -504,7 +505,7 @@ const testimonials = [
     rating: 5,
     description:
       "TastyBite’s shawarma was loaded and full of flavor. No cabbage overload—just real meat. I couldn’t even finish it in one sitting. My babe loves it too, so we’ll be back for sure.",
-    src: "/assets/headshots/img-5.png",
+    src: "/headshots/img-5.png",
     name: "Danosman",
     title: "customer",
   },
@@ -514,7 +515,7 @@ const testimonials = [
     rating: 5,
     description:
       "Omorrh! The beef is just amazing—so flavorful! I love how they spice and sauce their shawarma at TastyBite. No doubt, I strongly recommend it to everyone. The sharwarma sweet me joor!! No caps.. twale!!! I respect una!!",
-    src: "/assets/headshots/img-6.png",
+    src: "/headshots/img-6.png",
     name: "Iheanyi emmanuel",
     title: "customer",
   },
@@ -524,7 +525,7 @@ const testimonials = [
     rating: 5,
     description:
       "I’ve been to a lot of shawarma spots in Owerri, but this one stands out. The service is always warm and quick. The taste is rich, and you can tell they care about quality. I keep coming back because they never disappoint.",
-    src: "/assets/headshots/img-7.png",
+    src: "/headshots/img-7.png",
     name: "Ace Shadow",
     title: "customer",
   },
@@ -534,7 +535,7 @@ const testimonials = [
     rating: 4,
     description:
       "It’s a solid place to fill your stomach when you’re hungry. They’re always quick to attend to customers, and that means a lot. The food tastes good and leaves you satisfied. Plus, the prices are fair for anyone, no matter your budget.",
-    src: "/assets/headshots/img-8.png",
+    src: "/headshots/img-8.png",
     name: "Eluwa Ikechukwu",
     title: "customer",
   },
@@ -544,7 +545,7 @@ const testimonials = [
     rating: 5,
     description:
       "The shawarma is really sweet and plenty—just the way I like it. Whether it's beef or chicken, they don’t hold back. It’s tasty, delicious, and full of flavor. Honestly, you start craving it the moment you see it.",
-    src: "/assets/headshots/img-3.png",
+    src: "/headshots/img-3.png",
     name: "Victor Chika",
     title: "customer",
   },
@@ -554,7 +555,7 @@ const testimonials = [
     rating: 5,
     description:
       "Their shawarma is honestly so good. From the first bite, you can tell  it’s made right.  The flavor, the texture, everything just hits.  I always  look forward to getting one again.",
-    src: "/assets/headshots/img-9.png",
+    src: "/headshots/img-9.png",
     name: "Young Victor",
     title: "customer",
   },
@@ -564,7 +565,7 @@ const testimonials = [
     rating: 5,
     description:
       "It’s just awesome—no other way to put it. The taste is something you don’t forget easily. Every bite is full of flavor. If you love good food, you’ll love this.",
-    src: "/assets/headshots/img-10.png",
+    src: "/headshots/img-10.png",
     name: "Emma Uchechukwu",
     title: "customer",
   },
@@ -574,7 +575,7 @@ const testimonials = [
     rating: 5,
     description:
       "The taste is really something else—so good. It’s the kind of food that makes you pause and enjoy every bite. You can tell they put care into it. I’ll definitely keep coming back for more.",
-    src: "/assets/headshots/img-16.png",
+    src: "/headshots/img-16.png",
     name: "Angel Emerole",
     title: "customer",
   },
@@ -584,7 +585,7 @@ const testimonials = [
     rating: 4,
     description:
       "The shawarma is really nice—I enjoy every bite. It has a great balance of flavors that feels just right. It’s simple but satisfying every time. I always feel good grabbing one here.",
-    src: "/assets/headshots/img-12.png",
+    src: "/headshots/img-12.png",
     name: "Chiedo Chigoziem",
     title: "customer",
   },
@@ -594,7 +595,7 @@ const testimonials = [
     rating: 4,
     description:
       "The taste is great every single time. The staff are friendly and make you feel welcome. It’s a nice experience from start to finish. I always leave happy and satisfied.",
-    src: "/assets/headshots/img-15.png",
+    src: "/headshots/img-15.png",
     name: "Blessing Iwu",
     title: "customer",
   },
@@ -604,7 +605,7 @@ const testimonials = [
     rating: 5,
     description:
       "It was really nice, and I enjoyed every bit of it. The whole experience made me want to come back again. They know how to keep customers happy. I’ll definitely keep patronizing this place.",
-    src: "/assets/headshots/img-13.png",
+    src: "/headshots/img-13.png",
     name: "Freedom Okechukwu",
     title: "customer",
   },
@@ -614,7 +615,7 @@ const testimonials = [
     rating: 5,
     description:
       "I wasn’t expecting much, but wow—this shawarma blew me away. It’s juicy, tasty, and really satisfying. The staff were polite and quick to attend to me. I’ll definitely be stopping by again soon.",
-    src: "/assets/headshots/img-18.jpg",
+    src: "/headshots/img-18.jpg",
     name: "Adaora Nnenna",
     title: "customer",
   },
@@ -624,7 +625,7 @@ const testimonials = [
     rating: 4,
     description:
       "That first bite had me hooked right away. You can taste the effort they put into every wrap. It’s now my go-to spot after work. I’d recommend it to anyone who wants real value for their money.",
-    src: "/assets/headshots/img-19.jpg",
+    src: "/headshots/img-19.jpg",
     name: "Tunde Adeyemi",
     title: "customer",
   },
@@ -634,7 +635,7 @@ const testimonials = [
     rating: 5,
     description:
       "This is honestly one of the best food spots I’ve tried in a while. The shawarma was fresh, well-spiced, and super filling. I also loved how clean and organized the place was. Can’t wait to bring my sister here.",
-    src: "/assets/headshots/img-20.png",
+    src: "/headshots/img-20.png",
     name: "Chiamaka Oge",
     title: "customer",
   },

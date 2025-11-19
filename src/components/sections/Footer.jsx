@@ -21,7 +21,7 @@ function Footer() {
               </p>
               <ul className="flex flex-col gap-y-4">
                 {col.links.map((link) => (
-                  <li key={link.id} className="cursor-pointer">
+                  <li key={link} className="cursor-pointer">
                     <a
                       href="#"
                       className="hover:text-primary-accent-75 transition-properties text-lg font-light"

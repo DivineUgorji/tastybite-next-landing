@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import TestimonialList from "./TestimonialList";
 import { testimonials as test } from "../../../utils/contents";

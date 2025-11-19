@@ -69,9 +69,10 @@ function Hero() {
           </a>
 
           <a
+            href="#contact"
             className="bg-primary-75 text-primary-base-200 border-2 rounded-full 
               px-6 py-3 w-full sm:w-40 text-center font-medium shadow-xl 
-              hover:bg-primary-accent-100 hover:text-primary-100 transition-properties"
+              hover:bg-primary-accent-100 hover:text-primary-100 transition-properties cursor-pointer"
           >
             Learn More
           </a>

@@ -60,7 +60,7 @@ function Hero() {
           variants={itemVariants}
         >
           <a
-            href="https://wa.me/message/N4ERLPR6KBEWP1?text=Hello%20I%20want%20to%20order"
+            href="https://wa.me/message/N4ERLPR6KBEWP1"
             className="bg-primary-accent-100 border-primary-accent-100 text-primary-100 
               rounded-full border-2 px-6 py-3 w-full sm:w-40 text-center font-medium 
               hover:bg-primary-75 hover:text-primary-base-200 transition-properties shadow-xl"

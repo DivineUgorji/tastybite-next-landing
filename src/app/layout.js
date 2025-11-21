@@ -1,5 +1,6 @@
 import { Poppins, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { PostHogProvider } from "./providers";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -25,9 +26,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${geistMono.variable} antialiased`}>
-        {children}
-      </body>
+      <PostHogProvider>
+        <body
+          className={`${poppins.variable} ${geistMono.variable} antialiased`}
+        >
+          {children}
+        </body>
+      </PostHogProvider>
     </html>
   );
 }

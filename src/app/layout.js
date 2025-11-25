@@ -1,6 +1,7 @@
 import { Poppins, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { PostHogProvider } from "./providers";
+import PlausibleProvider from "next-plausible";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -30,7 +31,9 @@ export default function RootLayout({ children }) {
         <body
           className={`${poppins.variable} ${geistMono.variable} antialiased`}
         >
-          {children}
+          <PlausibleProvider domain="tastybite.online">
+            {children}
+          </PlausibleProvider>
         </body>
       </PostHogProvider>
     </html>

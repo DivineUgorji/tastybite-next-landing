@@ -1,7 +1,9 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { usePlausible } from "next-plausible";
 
 function Menu({ tastyMenu }) {
+  const plausible = usePlausible();
   return (
     <motion.li
       className="flex flex-col px-6 py-8 rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.3)]"
@@ -43,6 +45,7 @@ function Menu({ tastyMenu }) {
           <a
             href="https://wa.me/message/N4ERLPR6KBEWP1"
             className="bg-primary-accent-100 text-primary-100 px-3 py-2 border-2 rounded-xl sm:font-medium md:text-base text-sm"
+            onClick={() => plausible("Order_now_menu")}
           >
             Order Now
           </a>

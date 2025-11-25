@@ -2,8 +2,10 @@ import { motion } from "motion/react";
 import Close from "../../icons/Close";
 import { navigationLinks } from "../../../utils/contents";
 import { useMobileMenuContext } from "../../../Contexts/MobileMenuContext";
+import { usePlausible } from "next-plausible";
 
 function MobileMenu() {
+  const plausible = usePlausible();
   const { mobileMenuOpened, setMobileMenuOpened } = useMobileMenuContext();
   return (
     <motion.div
@@ -66,6 +68,7 @@ function MobileMenu() {
             href="https://wa.me/message/N4ERLPR6KBEWP1"
             rel="noopener noreferrer"
             className="block text-center bg-primary-accent-75 border-primary-accent-75 text-primary-100 hover:bg-primary-75 hover:text-primary-base-300 hover:border-primary-75 transition-properties rounded-full px-4 py-2 border-2 cursor-pointer font-medium text-lg/loose"
+            onClick={() => plausible("mobilenav_order_click")}
           >
             Order Now
           </a>

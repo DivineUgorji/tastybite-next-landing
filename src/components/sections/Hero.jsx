@@ -5,8 +5,10 @@ import { reviews } from "../../utils/contents";
 import heroImg from "@/assets/graphics/tasty-hero.png";
 import FlipWords from "../FlippingWordAnimation";
 import { motion } from "framer-motion";
+import { usePlausible } from "next-plausible";
 
 function Hero() {
+  const plausible = usePlausible();
   const containerVariants = {
     hidden: {},
     show: {
@@ -64,6 +66,7 @@ function Hero() {
             className="bg-primary-accent-100 border-primary-accent-100 text-primary-100 
               rounded-full border-2 px-6 py-3 w-full sm:w-40 text-center font-medium 
               hover:bg-primary-75 hover:text-primary-base-200 transition-properties shadow-xl"
+            onClick={() => plausible("hero_order_click")}
           >
             Order Now
           </a>

@@ -31,13 +31,13 @@ function Navigation() {
         </a> */}
 
         <a
-          href={`https://wa.me/2349161681691?text=Hello%2C%20I%20want%20to%20order%20${encodeURIComponent(tastyMenu.title)}`}
+          href="#menu"
           className="bg-primary-accent-100 text-primary-100 px-3 py-2 border-2 rounded-xl sm:font-medium md:text-base text-sm"
-          onClick={() => plausible("Desktop_Navbar_order_click")}
-          target="_blank"
-          rel="noopener noreferrer"
+          // onClick={() => plausible("Desktop_Navbar_order_click")}
+          // target="_blank"
+          // rel="noopener noreferrer"
         >
-          Order Now
+          See menu
         </a>
       </div>
 

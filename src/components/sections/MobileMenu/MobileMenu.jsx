@@ -65,10 +65,11 @@ function MobileMenu() {
         </div>
         <div className="flex flex-col gap-y-3">
           <a
-            href="https://wa.me/message/N4ERLPR6KBEWP1"
-            rel="noopener noreferrer"
-            className="block text-center bg-primary-accent-75 border-primary-accent-75 text-primary-100 hover:bg-primary-75 hover:text-primary-base-300 hover:border-primary-75 transition-properties rounded-full px-4 py-2 border-2 cursor-pointer font-medium text-lg/loose"
+            href={`https://wa.me/2349161681691?text=Hello%2C%20I%20want%20to%20order%20${encodeURIComponent(tastyMenu.title)}`}
+            className="bg-primary-accent-100 text-primary-100 px-3 py-2 border-2 rounded-xl sm:font-medium md:text-base text-sm"
             onClick={() => plausible("mobilenav_order_click")}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Order Now
           </a>

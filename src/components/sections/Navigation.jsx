@@ -22,10 +22,20 @@ function Navigation() {
           ))}
         </ul>
 
-        <a
+        {/* <a
           href="https://wa.me/message/N4ERLPR6KBEWP1"
           className="bg-primary-accent-100 border-primary-accent-100 text-primary-100 rounded-full px-8 py-2 border-2 cursor-pointer text-base/loose hover:bg-primary-accent-75 hover:border-primary-accent-75 transition-properties font-medium text-[1rem]"
           onClick={() => plausible("Desktop_Navbar_order_click")}
+        >
+          Order Now
+        </a> */}
+
+        <a
+          href={`https://wa.me/2349161681691?text=Hello%2C%20I%20want%20to%20order%20${encodeURIComponent(tastyMenu.title)}`}
+          className="bg-primary-accent-100 text-primary-100 px-3 py-2 border-2 rounded-xl sm:font-medium md:text-base text-sm"
+          onClick={() => plausible("Desktop_Navbar_order_click")}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Order Now
         </a>

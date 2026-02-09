@@ -4,6 +4,19 @@ import { usePlausible } from "next-plausible";
 
 function Menu({ tastyMenu }) {
   const plausible = usePlausible();
+
+  // Handle WhatsApp link click
+  const handleOrderClick = (e) => {
+    e.preventDefault();
+    plausible("menu_order_click");
+
+    const message = `Hi! Just saw ${tastyMenu.title} on your website and it's looking too good. I'd like to place an order`;
+    // const message = `Hi! Saw this on your website and it's looking too good 👀 I'd like to order ${tastyMenu.title}`;
+    const whatsappUrl = `https://wa.me/2349161681691?text=${encodeURIComponent(message)}`;
+
+    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <motion.li
       className="flex flex-col px-6 py-8 rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.3)]"
@@ -13,14 +26,6 @@ function Menu({ tastyMenu }) {
       transition={{ opacity: { duration: 0.75, ease: "easeInOut" } }}
       id="Menu"
     >
-      {/* <Image
-        className="h-48 w-full object-cover rounded-xl"
-        src={tastyMenu.src}
-        alt={tastyMenu.title || "Menu item"}
-        height="192"
-        width="192"
-      /> */}
-
       <div style={{ position: "relative", width: "100%", height: "300px" }}>
         <Image
           className="rounded-xl"
@@ -50,7 +55,7 @@ function Menu({ tastyMenu }) {
             Order Now
           </a> */}
 
-          <a
+          {/* <a
             href={`https://wa.me/2349161681691?text=Hello%2C%20I%20want%20to%20order%20${encodeURIComponent(tastyMenu.title)}`}
             className="bg-primary-accent-100 text-primary-100 px-3 py-2 border-2 rounded-xl sm:font-medium md:text-base text-sm"
             onClick={() => plausible("menu_order_click")}
@@ -58,7 +63,14 @@ function Menu({ tastyMenu }) {
             rel="noopener noreferrer"
           >
             Order Now
-          </a>
+          </a> */}
+
+          <button
+            onClick={handleOrderClick}
+            className="bg-primary-accent-100 text-primary-100 px-3 py-2 border-2 rounded-xl sm:font-medium md:text-base text-sm cursor-pointer"
+          >
+            Order Now
+          </button>
         </div>
       </div>
     </motion.li>

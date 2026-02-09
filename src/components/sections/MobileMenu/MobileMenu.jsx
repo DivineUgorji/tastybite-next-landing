@@ -3,7 +3,7 @@ import Close from "../../icons/Close";
 import { navigationLinks } from "../../../utils/contents";
 import { useMobileMenuContext } from "../../../Contexts/MobileMenuContext";
 import { usePlausible } from "next-plausible";
-import tastyMenu from "@/utils/contents";
+
 
 function MobileMenu() {
   const plausible = usePlausible();

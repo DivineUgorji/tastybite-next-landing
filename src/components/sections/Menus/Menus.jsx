@@ -2,6 +2,7 @@
 import { useState } from "react";
 import MenuList from "./MenuList";
 import { menu as tastyMenus } from "../../../utils/contents";
+import { CaretUp } from "@/components/icons/CaretUp";
 
 function Menus() {
   const [expanded, setExpanded] = useState(true);
@@ -29,6 +30,19 @@ function Menus() {
           <MenuList tastyMenus={tastyMenus.slice(16, expanded ? 32 : 16)} />
           <MenuList tastyMenus={tastyMenus.slice(32, expanded ? 48 : 24)} />
         </div>
+        <button
+          className="bg-primary-base-500 text-primary-75 border-2 border-primary-base-500 transition-properties rounded-full px-8 py-2 hover:bg-primary-75 hover:text-primary-base-500 hover:border-primary-base-500 cursor-pointer flex items-center gap-x-2 text-base/loose sm:text-lg/8"
+          onClick={() => setExpanded((currentValue) => !currentValue)}
+        >
+          {expanded ? "Show less" : "Show more"}
+          <CaretUp
+            width={2}
+            className={`rotate-180 transition-all duration-300 ${
+              expanded && "rotate-360"
+            }`}
+            alt="caretup icon"
+          />
+        </button>
       </div>
     </section>
   );

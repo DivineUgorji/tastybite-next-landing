@@ -2,7 +2,7 @@
 import { useState } from "react";
 import MenuList from "./MenuList";
 import { menu as tastyMenus } from "../../../utils/contents";
-import { CaretUp } from "../../../components/icons/CaretUp";
+import { CaretUp } from "@phosphor-icons/react";
 
 function Menus() {
   const [expanded, setExpanded] = useState(true);

@@ -26,11 +26,28 @@ import mixedExtraImg from "@/assets/menu/mixed-extra.jpeg";
 import beefSpecialImg from "@/assets/menu/beef-special.jpg";
 import chickenSpecialImg from "@/assets/menu/chicken-special.jpg";
 import mixedSpecialImg from "@/assets/menu/mixed-special.jpeg";
+import beefWithCheeseImg from "@/assets/menu/beef-with-cheese.jpeg";
+import chickenWithCheeseImg from "@/assets/menu/chicken-with-cheese.jpeg";
+import mixedWithCheeseImg from "@/assets/menu/mixed-with-cheese.jpeg";
 import burgerImg from "@/assets/menu/burger.jpg";
+import chipsImg from "@/assets/menu/chips.jpeg";
 import chickenChipsImg from "@/assets/menu/chicken-chips.jpg";
 import burgerChipsImg from "@/assets/menu/burger-chips.jpg";
+import cupcakeImg from "@/assets/menu/cupcake.jpg";
+import smallCupcakeImg from "@/assets/menu/small-cupcake.jpeg";
+import mediumCupcakeImg from "@/assets/menu/medium-cupcake.jpeg";
+import bigCupcakeImg from "@/assets/menu/big-cupcake.jpeg";
 import meatpieImg from "@/assets/menu/meatpie.jpg";
+import doughnutImg from "@/assets/menu/doughnut.jpeg";
+import popcornImg from "@/assets/menu/popcorn.jpeg";
 import superRollImg from "@/assets/menu/super-roll.jpg";
+import beefPizzaImg from "@/assets/menu/beef-pizza.jpeg";
+import chickenPizzaImg from "@/assets/menu/chicken-pizza.jpeg";
+import mixedPizzaImg from "@/assets/menu/mixed-pizza.jpeg";
+import beefPizzaCheeseImg from "@/assets/menu/beef-pizza-with-cheese.jpeg";
+import chickenPizzaCheeseImg from "@/assets/menu/chicken-pizza-with-cheese.jpeg";
+import mixedPizzaCheeseImg from "@/assets/menu/mixed-pizza-with-cheese.jpeg";
+import singleSandwichImg from "@/assets/menu/single-sandwich.jpeg";
 import drinksImg from "@/assets/menu/drinks.jpeg";
 import headShotOne from "@/assets/headshots/img-3.png";
 import headShotTwo from "@/assets/headshots/img-2.png";
@@ -97,7 +114,7 @@ const menu = [
     title: "Beef Shawarma",
     description:
       "Marinated spiced beef wrapped in flatbread with veggies & sauces.",
-    price: "2,900",
+    price: "3,100",
   },
 
   {
@@ -105,7 +122,7 @@ const menu = [
     src: chickenImg,
     title: "Chicken Shawarma",
     description: "Spiced grilled chicken wrap with toppings & creamy sauce.",
-    price: "3,200",
+    price: "3,500",
   },
 
   {
@@ -114,7 +131,7 @@ const menu = [
     title: "Mixed Shawarma",
     description:
       "Beef & chicken shawarma wrapped with fresh veggies and sauces.",
-    price: "3,800",
+    price: "4,200",
   },
 
   {
@@ -123,7 +140,7 @@ const menu = [
     title: "Beef With Sausage",
     description:
       "Juicy beef shawarma loaded with flavorful sausage and tasty fillings.",
-    price: "3,600",
+    price: "3,900",
   },
 
   {
@@ -132,7 +149,7 @@ const menu = [
     title: "Chicken With Sausage",
     description:
       "Tender chicken shawarma paired with sausage for a hearty, flavorful wrap.",
-    price: "3,900",
+    price: "4,300",
   },
 
   {
@@ -141,25 +158,25 @@ const menu = [
     title: "Mixed With Sausage",
     description:
       "Beef & chicken shawarma with sausage for a rich, satisfying bite.",
-    price: "4,500",
+    price: "5,000",
   },
 
   {
     id: 7,
     src: beefExtraImg,
-    title: "Beef Extra Padding",
+    title: "Beef With Extra Padding",
     description:
       "Beef shawarma with extra meat and fillings for a fuller, heavier wrap.",
-    price: "4,100",
+    price: "4,400",
   },
 
   {
     id: 8,
     src: extraChickenImg,
-    title: "Chicken Extra Padding",
+    title: "Chicken With Extra Padding",
     description:
       "Chicken shawarma packed with extra layers of chicken and toppings.",
-    price: "4,400",
+    price: "4,800",
   },
 
   {
@@ -168,7 +185,7 @@ const menu = [
     title: "Mixed Extra Padding",
     description:
       "Extra-loaded beef & chicken shawarma for ultimate satisfaction.",
-    price: "5,000",
+    price: "5,500",
   },
 
   {
@@ -177,7 +194,7 @@ const menu = [
     title: "Beef Shawarma Special",
     description:
       "Premium beef shawarma with special sauces and extra stuffing.",
-    price: "4,800",
+    price: "5,100",
   },
 
   {
@@ -186,7 +203,7 @@ const menu = [
     title: "Chicken Shawarma Special",
     description:
       "Special chicken shawarma featuring extra flavors and hearty toppings.",
-    price: "5,100",
+    price: "5,500",
   },
 
   {
@@ -195,11 +212,38 @@ const menu = [
     title: "Mixed Shawarma Special",
     description:
       "A special blend of beef and chicken shawarma, fully loaded with sauces.",
-    price: "2,900",
+    price: "6,200",
   },
 
   {
     id: 13,
+    src: beefWithCheeseImg,
+    title: "Beef Shawarma With Cheese",
+    description:
+      "Juicy beef shawarma topped with melted cheese for a rich, savory flavor.",
+    price: "4,500",
+  },
+
+  {
+    id: 14,
+    src: chickenWithCheeseImg,
+    title: "Chicken Shawarma With Cheese",
+    description:
+      "Juicy chicken shawarma topped with melted cheese for a rich, savory flavor.",
+    price: "4,800",
+  },
+
+  {
+    id: 15,
+    src: mixedWithCheeseImg,
+    title: "Mixed Shawarma With Cheese",
+    description:
+      "Juicy mixed shawarma topped with melted cheese for a rich, savory flavor.",
+    price: "5,500",
+  },
+
+  {
+    id: 16,
     src: burgerImg,
     title: "Burger",
     description: "Classic juicy beef burger served in fresh veggies and sauce.",
@@ -207,47 +251,290 @@ const menu = [
   },
 
   {
-    id: 14,
-    src: chickenChipsImg,
-    title: "Chicken And Chips",
-    description:
-      "Crispy fried chicken served with golden, crunchy chips (fries).",
-    price: "7,000",
-  },
-
-  {
-    id: 15,
-    src: burgerChipsImg,
-    title: "Burger And Chips",
-    description:
-      "Tasty beef burger paired with a side of crispy chips (fries).",
-    price: "6,500",
-  },
-
-  {
-    id: 16,
-    src: meatpieImg,
-    title: "Meat Pie",
-    description:
-      "Flaky pastry stuffed with seasoned minced meat and savory fillings.",
-    price: "800",
-  },
-
-  {
     id: 17,
-    src: superRollImg,
-    title: "Super Roll",
+    src: chipsImg,
+    title: "Chips",
     description:
-      "Big, flavorful pastry roll packed with seasoned meat and spices.",
-    price: "800",
+      "Crispy golden chips, freshly fried and lightly salted for a satisfying crunch in every bite.",
+    price: "4,000",
   },
 
   {
     id: 18,
+    src: chickenChipsImg,
+    title: "Chicken And Chips",
+    description:
+      "Crispy fried chicken served with golden, crunchy chips (fries).",
+    price: "7000",
+  },
+
+  {
+    id: 19,
+    src: burgerChipsImg,
+    title: "Burger And Chips",
+    description:
+      "Tasty beef burger paired with a side of crispy chips (fries).",
+    price: "7,000",
+  },
+
+  {
+    id: 20,
+    src: meatpieImg,
+    title: "Meat Pie",
+    description:
+      "Flaky pastry stuffed with seasoned minced meat and savory fillings.",
+    price: "1000",
+  },
+
+  {
+    id: 21,
+    src: meatpieImg,
+    title: "Small meat pie",
+    description:
+      "Flaky pastry stuffed with seasoned minced meat and savory fillings.",
+    price: "500",
+  },
+
+  {
+    id: 22,
+    src: superRollImg,
+    title: "Super Roll",
+    description:
+      "Big, flavorful pastry roll packed with seasoned meat and spices.",
+    price: "1000",
+  },
+
+  {
+    id: 23,
+    src: doughnutImg,
+    title: "Doughnut",
+    description:
+      "Soft, fluffy doughnut with a golden crust, lightly sweetened and perfect as a quick treat or dessert.",
+    price: "600",
+  },
+
+  {
+    id: 24,
+    src: popcornImg,
+    title: "Popcorn",
+    description:
+      "Light, crunchy popcorn freshly popped and coated with a rich, savory flavor for a satisfying snack.",
+    price: "800",
+  },
+
+  {
+    id: 25,
+    src: cupcakeImg,
+    title: "Cup Cake",
+    description:
+      "Deliciously moist and fluffy cupcakes in a variety of flavors.",
+    price: "500",
+  },
+
+  {
+    id: 26,
+    src: smallCupcakeImg,
+    title: "Small foil cup cake",
+    description:
+      "Deliciously moist and fluffy cupcakes in a variety of flavors.",
+    price: "1,500",
+  },
+
+  {
+    id: 27,
+    src: mediumCupcakeImg,
+    title: "Medium foil cup cake",
+    description:
+      "Deliciously moist and fluffy medium-sized cupcakes in a variety of flavors.",
+    price: "2,500",
+  },
+
+  {
+    id: 28,
+    src: bigCupcakeImg,
+    title: "Big foil cup cake",
+    description:
+      "Deliciously moist and fluffy large-sized cupcakes in a variety of flavors.",
+    price: "3,500",
+  },
+
+  {
+    id: 29,
+    src: beefPizzaImg,
+    title: "Small Beef Pizza",
+    description:
+      "Freshly baked small pizza topped with seasoned beef, rich tomato sauce, and melted cheese on a crispy crust.",
+    price: "4,000",
+  },
+
+  {
+    id: 30,
+    src: chickenPizzaImg,
+    title: "Small Chicken Pizza",
+    description:
+      "Freshly baked small pizza topped with seasoned chicken, rich tomato sauce, and melted cheese on a crispy crust.",
+    price: "4,500",
+  },
+
+  {
+    id: 31,
+    src: mixedPizzaImg,
+    title: "Small Mixed Pizza",
+    description:
+      "Freshly baked small mixed pizza topped with seasoned beef, chicken, rich tomato sauce, and melted cheese on a crispy crust.",
+    price: "4,500",
+  },
+
+  {
+    id: 32,
+    src: beefPizzaImg,
+    title: "Medium Beef Pizza",
+    description:
+      "Freshly baked medium-sized pizza topped with seasoned beef, chicken, rich tomato sauce, and melted cheese on a crispy crust.",
+    price: "6,000",
+  },
+
+  {
+    id: 33,
+    src: chickenPizzaImg,
+    title: "Medium Beef Pizza",
+    description:
+      "Freshly baked medium-sized pizza topped with seasoned chicken, rich tomato sauce, and melted cheese on a crispy crust.",
+    price: "6,500",
+  },
+
+  {
+    id: 34,
+    src: mixedPizzaImg,
+    title: "Medium Mixed Pizza",
+    description:
+      "Freshly baked medium-sized pizza topped with seasoned beef, chicken, rich tomato sauce, and melted cheese on a crispy crust.",
+    price: "7,500",
+  },
+
+  {
+    id: 35,
+    src: beefPizzaImg,
+    title: "Big Beef Pizza",
+    description:
+      "Freshly baked large-sized pizza topped with seasoned beef, rich tomato sauce, and melted cheese on a crispy crust.",
+    price: "8,000",
+  },
+
+  {
+    id: 36,
+    src: chickenPizzaImg,
+    title: "Big Chicken Pizza",
+    description:
+      "Freshly baked large-sized pizza topped with seasoned chicken, rich tomato sauce, and melted cheese on a crispy crust.",
+    price: "8,500",
+  },
+
+  {
+    id: 37,
+    src: mixedPizzaImg,
+    title: "Big Mixed Pizza",
+    description:
+      "Freshly baked large-sized pizza topped with seasoned chicken, rich tomato sauce on a crispy crust.",
+    price: "10,000",
+  },
+
+  {
+    id: 38,
+    src: beefPizzaCheeseImg,
+    title: "Small Beef Pizza With Cheese",
+    description:
+      "Freshly baked small pizza topped with seasoned beef, rich tomato sauce, and generous melted cheese on a crispy crust.",
+    price: "6,000",
+  },
+
+  {
+    id: 39,
+    src: chickenPizzaCheeseImg,
+    title: "Small Chicken Pizza With Cheese",
+    description:
+      "Freshly baked small pizza topped with seasoned chicken, rich tomato sauce, and generous melted cheese on a crispy crust.",
+    price: "6,500",
+  },
+
+  {
+    id: 40,
+    src: mixedPizzaCheeseImg,
+    title: "Small Mixed Pizza With Cheese",
+    description:
+      "Freshly baked small pizza topped with seasoned beef, chicken, rich tomato sauce, and generous melted cheese on a crispy crust.",
+    price: "7,500",
+  },
+
+  {
+    id: 41,
+    src: beefPizzaCheeseImg,
+    title: "Medium Beef Pizza With Cheese",
+    description:
+      "Freshly baked medium-sized pizza topped with seasoned beef, rich tomato sauce, and generous melted cheese on a crispy crust.",
+    price: "8,000",
+  },
+
+  {
+    id: 42,
+    src: chickenPizzaCheeseImg,
+    title: "Medium Chicken Pizza With Cheese",
+    description:
+      "Freshly baked medium-sized pizza topped with seasoned chicken, rich tomato sauce, and generous melted cheese on a crispy crust.",
+    price: "8,500",
+  },
+
+  {
+    id: 43,
+    src: mixedPizzaCheeseImg,
+    title: "Medium Mixed Pizza With Cheese",
+    description:
+      "Freshly baked small pizza topped with seasoned beef, chicken, rich tomato sauce, and generous melted cheese on a crispy crust.",
+    price: "9,500",
+  },
+
+  {
+    id: 44,
+    src: beefPizzaCheeseImg,
+    title: "Big Beef Pizza With Cheese",
+    description:
+      "Freshly baked large-sized pizza topped with seasoned beef, rich tomato sauce, and generous melted cheese on a crispy crust.",
+    price: "10,500",
+  },
+
+  {
+    id: 45,
+    src: chickenPizzaCheeseImg,
+    title: "Large Chicken Pizza With Cheese",
+    description:
+      "Freshly baked medium-sized pizza topped with seasoned chicken, rich tomato sauce, and generous melted cheese on a crispy crust.",
+    price: "11,500",
+  },
+
+  {
+    id: 46,
+    src: mixedPizzaCheeseImg,
+    title: "Large Mixed Pizza With Cheese",
+    description:
+      "Freshly baked large sized pizza topped with seasoned beef, chicken, rich tomato sauce, and generous melted cheese on a crispy crust.",
+    price: "15,000",
+  },
+
+  {
+    id: 47,
+    src: mixedPizzaCheeseImg,
+    title: "Single Sandwich",
+    description:
+      "Freshly made sandwich filled with seasoned meat, fresh vegetables, and a rich, flavorful spread, served on soft bread.",
+    price: "2,000",
+  },
+
+  {
+    id: 48,
     src: drinksImg,
     title: "Drinks",
     description:
-      "A refreshing selection of soft drinks to enjoy with your meal.",
+      "A refreshing selection of chilled soft drinks to enjoy with your meal.",
     price: "500",
   },
 ];

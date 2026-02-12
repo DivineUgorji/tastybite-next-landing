@@ -2,7 +2,6 @@
 import { useState } from "react";
 import MenuList from "./MenuList";
 import { menu as tastyMenus } from "../../../utils/contents";
-import CaretUp from "../../icons/CaretUp";
 
 function Menus() {
   const [expanded, setExpanded] = useState(true);
@@ -23,9 +22,12 @@ function Menus() {
           </p>
         </div>
         <div className="mb-16">
-          <MenuList tastyMenus={tastyMenus.slice(0, expanded ? 6 : 3)} />
+          {/* <MenuList tastyMenus={tastyMenus.slice(0, expanded ? 6 : 3)} />
           <MenuList tastyMenus={tastyMenus.slice(6, expanded ? 12 : 9)} />
-          <MenuList tastyMenus={tastyMenus.slice(12, expanded ? 18 : 15)} />
+          <MenuList tastyMenus={tastyMenus.slice(12, expanded ? 18 : 15)} /> */}
+          <MenuList tastyMenus={tastyMenus.slice(0, expanded ? 16 : 8)} />
+          <MenuList tastyMenus={tastyMenus.slice(16, expanded ? 32 : 16)} />
+          <MenuList tastyMenus={tastyMenus.slice(32, expanded ? 48 : 24)} />
         </div>
       </div>
     </section>

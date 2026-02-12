@@ -2,7 +2,7 @@
 import { useState } from "react";
 import MenuList from "./MenuList";
 import { menu as tastyMenus } from "../../../utils/contents";
-import { CaretUp } from "@phosphor-icons/react";
+import { ChevronUp } from "lucide-react";
 
 function Menus() {
   const [expanded, setExpanded] = useState(true);
@@ -35,12 +35,12 @@ function Menus() {
           onClick={() => setExpanded((currentValue) => !currentValue)}
         >
           {expanded ? "Show less" : "Show more"}
-          <CaretUp
+          <ChevronUp
             width={2}
             className={`rotate-180 transition-all duration-300 ${
               expanded && "rotate-360"
             }`}
-            alt="caretup icon"
+            alt="chevron up icon"
           />
         </button>
       </div>

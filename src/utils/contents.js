@@ -397,7 +397,7 @@ const menu = [
   {
     id: 33,
     src: chickenPizzaImg,
-    title: "Medium Beef Pizza",
+    title: "Medium Chicken Pizza",
     description:
       "Freshly baked medium-sized pizza topped with seasoned chicken, rich tomato sauce, and melted cheese on a crispy crust.",
     price: "6,500",
@@ -496,7 +496,7 @@ const menu = [
   {
     id: 44,
     src: beefPizzaCheeseImg,
-    title: "Big Beef Pizza With Cheese",
+    title: "Large Beef Pizza With Cheese",
     description:
       "Freshly baked large-sized pizza topped with seasoned beef, rich tomato sauce, and generous melted cheese on a crispy crust.",
     price: "10,500",
@@ -522,7 +522,7 @@ const menu = [
 
   {
     id: 47,
-    src: mixedPizzaCheeseImg,
+    src: singleSandwichImg,
     title: "Single Sandwich",
     description:
       "Freshly made sandwich filled with seasoned meat, fresh vegetables, and a rich, flavorful spread, served on soft bread.",

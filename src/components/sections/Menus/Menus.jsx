@@ -2,7 +2,6 @@
 import { useState } from "react";
 import MenuList from "./MenuList";
 import { menu as tastyMenus } from "../../../utils/contents";
-// import { ChevronUp } from "lucide-react";
 
 function Menus() {
   const [expanded, setExpanded] = useState(true);
